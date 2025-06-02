@@ -1,5 +1,5 @@
 
-> 在 [https://jimjimcbyt.github.io/project-smart_fan/](這) 打開此頁面
+> 在 [https://jimjimcbyt.github.io/project-smart_fan/](https://jimjimcbyt.github.io/project-smart_fan/) 打開此頁面
 
 ---
 
