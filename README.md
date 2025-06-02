@@ -1,5 +1,5 @@
 
-> 在 [https://jimjimcbyt.github.io/project-smart_fan/](https://jimjimcbyt.github.io/project-smart_fan/) 打開此頁面
+> 在 [https://jimjimcbyt.github.io/project-smart_fan/](這) 打開此頁面
 
 ## 作為擴充功能使用
 
@@ -18,6 +18,11 @@
 * 按一下**匯入**，然後按一下**匯入 URL**
 * 貼上 **https://github.com/jimjimcbyt/project-smart_fan** 並按一下匯入
 
+## 使用約定
+
+* 這我自己做的要引用請先告知
+
+## 這我不知道是什麼 預設的
 #### 中繼資料 (用於搜索、渲染)
 
 * for PXT/microbit
