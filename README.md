@@ -22,6 +22,8 @@
 * 按一下**匯入**，然後按一下**匯入 URL**
 * 貼上 **https://github.com/jimjimcbyt/project-smart_fan** 並按一下匯入
 
+---
+
 ## 使用約定
 
 * 這我自己做的要引用請先告知
