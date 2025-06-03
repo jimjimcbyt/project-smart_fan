@@ -1,30 +1,24 @@
-def on_button_pressed_ab():
-    global 段
+input.onButtonPressed(Button.AB, function () {
     段 = 0
-input.on_button_pressed(Button.AB, on_button_pressed_ab)
-
-轉速 = 0
-段 = 0
-pins.analog_write_pin(AnalogPin.P0, 0)
-pins.analog_write_pin(AnalogPin.P1, 0)
-
-def on_forever():
-    global 段
-    if input.temperature() >= 27:
+})
+let 轉速 = 0
+let 段 = 0
+pins.analogWritePin(AnalogPin.P0, 0)
+pins.analogWritePin(AnalogPin.P1, 0)
+basic.forever(function () {
+    if (input.temperature() >= 27) {
         段 = 5
-    elif input.temperature() >= 26 and input.temperature() < 27:
+    } else if (input.temperature() >= 26 && input.temperature() < 27) {
         段 = 4
-    elif input.temperature() >= 25 and input.temperature() < 26:
+    } else if (input.temperature() >= 25 && input.temperature() < 26) {
         段 = 3
-    elif input.temperature() >= 24 and input.temperature() < 25:
+    } else if (input.temperature() >= 24 && input.temperature() < 25) {
         段 = 2
-basic.forever(on_forever)
-
-def on_forever2():
-    pins.analog_write_pin(AnalogPin.P1, 轉速)
-basic.forever(on_forever2)
-
-def on_forever3():
-    global 轉速
+    }
+})
+basic.forever(function () {
+    pins.analogWritePin(AnalogPin.P1, 轉速)
+})
+basic.forever(function () {
     轉速 = 段 * 200
-basic.forever(on_forever3)
+})
